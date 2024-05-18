@@ -50,7 +50,7 @@ const Contacts = () => {
     <div className="container mx-auto mt-14 ">
       <div
         className="flex flex-wrap w-[45%] p-[30px] justify-center items-center
-       rounded-lg mx-auto shadow-[#304ffe25_0px_7px_29px_0px]">
+       rounded-lg mx-auto ">
         {inputsData.map((input, index) => (
           <input
             type={input.type}
